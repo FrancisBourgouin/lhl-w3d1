@@ -1,0 +1,86 @@
+<!-- version of the html. Here it's HTML 5 -->
+<!DOCTYPE html>
+
+<!-- Specify the language -->
+<html lang="en">
+  <!-- <head> Meta information about the document -->
+  <head>
+    <!-- character set that the document is going to use -->
+    <meta charset="UTF-8" />
+
+    <!-- Mobile. Adapte the viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Which version of IE is this page compatible with -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Structure of HTML</title>
+  </head>
+
+  <!-- <body> content goes in the body -->
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          Logo
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li><a href="#">Menu1</a></li>
+            <li><a href="#">Menu2</a></li>
+            <li><a href="#">Menu3</a></li>
+            <li><a href="#">Menu4</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <h1>List of semantic tags</h1>
+      <ul>
+        <li>header</li>
+        <li>nav</li>
+        <li>main</li>
+        <li>aside</li>
+        <li>footer</li>
+        <li>article</li>
+        <li>section</li>
+      </ul>
+    </main>
+
+    <section id="semantic-tags">
+      <!-- creating a form -->
+      <section class="submit-article">
+        <form>
+          <input
+            type="text"
+            name="article"
+            id="article"
+            placeholder="Content"
+          />
+          <input type="submit" value="submit" />
+        </form>
+      </section>
+
+      <article>
+        <header>
+          <h2>Header Tag</h2>
+        </header>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          facilis tenetur dicta.
+        </p>
+
+        <footer>
+          Lorem ipsum dolor sit amet consectetur.
+        </footer>
+      </article>
+    </section>
+
+    <footer>
+      Footer area
+    </footer>
+  </body>
+</html>
